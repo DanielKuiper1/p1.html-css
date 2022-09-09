@@ -1,0 +1,35 @@
+body {
+    background-color: lightgoldenrodyellow;
+  }
+  h1 {
+    color: darkblue;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  p {
+    color: rgb(89, 89, 179);
+    margin-left: 50px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .naam {
+    color: rgb(19, 19, 24);
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a {
+    color: rgb(98, 0, 255);
+    margin-left: 50px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cheeseburger {
+   margin-left: 50px;
+   margin-bottom: 40px;
+  }   
+  .pastacarbonara {
+    margin-left: 60px;
+    margin-bottom: 20px;
+   }   
