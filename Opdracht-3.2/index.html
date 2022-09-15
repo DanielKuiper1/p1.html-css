@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+     <label for="fname">Voornaam:</label>
+     <input type="text" name="fname" id="fname" pattern="[a-zA-Z]*" required><br/>
+
+     <label for="lname">Achternaam:</label>
+     <input type="text" name="lname" id="lname" pattern="[a-zA-Z]*" required><br/>
+
+     <Label for="email">Email:</Label>
+     <input type="email" name="email" id="email" required><br/>
+
+     <label for="wachtwoord">Wachtwoord:</label>
+     <input type="password" name="wachtwoord" required><br/>
+
+    <label for="geslacht">Geslacht:</label>
+    <select name="geslacht" id="geslacht">
+    <option value="Man">Man</option>
+    <option value="Vrouw">Vrouw</option>
+    </select><br/>
+
+    <label for="postcode">Postcode:</label>
+    <input type="text" name="postcode" id="postcode" required><br/>
+
+    <label for="adres">Adres:</label>
+    <input type="text" name="adres" id="adres" required><br/>
+
+    <label for="stad">Stad:</label>
+    <input type="text" name="stad" id="stad" required><br/>
+
+    <label for="land">Land:</label>
+    <input type="text" name="land" id="land" required><br/>
+
+    <label for="bsn">BSN-nummer:</label>
+    <input type="text" name="bsn" id="bsn" maxlength="9" pattern="[1-9]*" required><br/>
+
+    <label for="landen">Vakantieland:</label>
+    <select name="Landen" id="landen">
+    <option value="nk">Noord-Korea</option>
+    <option value="duitsland">Duitsland</option>
+    <option value="rusland">Rusland</option>
+    <option value="canada">Canada</option>
+    </select><br/>
+
+    <label for="date">Datum van vertrek:</label>
+    <input type="date" name="date" id="date" min="2022-09-15"><br/>
+
+    <label for="datet">Datum van terugkomst:</label>
+    <input type="date" name="datet" id="datet" min="2022-09-15"><br/>
+
+    <label for="reisgenoten">aantal reisgenoten:</label>
+    <input type="number" name="reisgenoten" id="reisgenoten" min="0" max="4"><br/>
+
+    <button>Boek nu</button>
+    </form>
+</body>
+</html>
