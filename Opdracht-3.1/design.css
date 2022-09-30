@@ -7,14 +7,15 @@ body {
 } 
 nav {
     display: flex;
-    width: 100%;
     padding: 2rem;
     min-height: 10vh;
     align-items: center;
     flex-wrap: wrap;
-    margin: auto;
+    margin-top: auto;
     background: #00a8c7;
     justify-content: space-between;
+    width: 100%;
+    position: fixed;
 }
 nav ul {
     display: flex;
@@ -32,43 +33,45 @@ nav a {
 nav img {
     width: 5vw;
 } 
-ul.a {
-  font-size: 24px;  
-  font-family: "Goldman", cursive;
-  list-style-type: circle;
-}
-ol.b {
-  font-size: 24px;  
-  font-family: "Goldman", cursive;
-  list-style-image: url('');
-}
-a {
-    color: #00a8c7;
-    text-decoration: none;
-}
 h2 {
-    font-size: 24px;  
-    color: #00a8c7;
-    font-family: "Goldman", cursive;
-    font-weight: bolder;
+    color: white;
+    text-align: center; 
+    font-size: 80px;
+    margin-top: 250px;
 }
-main {
-        background-image: url(./img/hacker.png);
+p {
+    color: white;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.ar1 {
+        background-image: url(./img/OPDRACHTBACK.png);
         background-size: 100%;
         background-position: center;
-        height: 1500px;
-}
-footer {
-    display: flex;
-    width: 100%;
-    padding: 2rem;
-    min-height: 10vh;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: auto;
-    background: #00a8c7;
-    justify-content: space-between;
+        height: 1000px;
 }
 body {
     background-color: black;
 }
+.Ri {
+    margin-right: 33%;
+    float: right;
+}
+.Li {
+    margin-left: 30%;
+    float: left;
+}
+.Rt {
+    margin-left: 50%;
+}
+.Lt {
+    margin-left: 27%;
+}
+.fp {
+    background-color: #00a8c7;
+    padding: 50px;
+    text-align: center;   
+    width: auto;
+    margin-left: 0px;
+  }
