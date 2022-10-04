@@ -1,0 +1,25 @@
+.container1 {
+display: flex;
+justify-content: space-evenly;
+flex-direction: row-reverse;
+}
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.box4 {
+    height: 200px;
+    width: 200px;
+    background: green;
+}
