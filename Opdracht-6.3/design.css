@@ -1,20 +1,17 @@
-    .container1 {
-        display: flex;
-        justify-content: center;
-    }
-    .box {
-        height: 200px;
-        width: 200px;
-        background-color: rgb(255, 255, 255);
-    }
-    .box1 {
-        flex-grow: 1;
-    }
-    .box6 {
-        flex-grow: 1;
-    }
-    h2 {
-        text-align: center;
-        color: blue;
-        font-size: 35px;
-    }
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.box1 {
+    flex-grow: 1;
+}
+h2 {
+    text-align: center;
+    color: blue;
+    font-size: 35px;
+}
