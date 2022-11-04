@@ -86,3 +86,103 @@ nav li {
   align-self: center;
   flex-direction: column;
 }
+.benefits-top {
+  background-color: #131c27;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+}
+.bth {
+  font-size: 6vh;
+}
+.btp {
+  font-size: 240%;
+  text-align: center;
+}
+.benefits-bot {
+  height: 66vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.benbox{
+  height: 50vh;
+  width: 20%;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,100);
+}
+.bbh {
+  margin-top: 3vh;
+  color: black;
+  text-align: center;
+}
+.bbp {
+  margin-top: 8vh;
+  color: black;
+  word-wrap: break-word;
+  padding: 4%;
+  text-align: center;
+}
+.bbi{
+  background-color: #131c27;
+  display: flex;
+  justify-content: center;
+  padding: 6%;
+}
+.bbl{
+  height: 6vh;
+}
+.contact{
+  background-image: linear-gradient(rgba(22, 22, 22, 1), rgba(22, 22, 22, 0)),
+    url("./img/img/contact-mountain.png");
+  background-size: 100%;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ConBox{
+  width: 50%;
+  height: 60vh;
+  background-color: #131c27ae;
+  border-radius: 13px 13px 13px 13px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 13px 13px;
+  height: 6vh;
+  width: 100%;
+  background-color: #4c6e97;
+  margin-bottom: 0px;
+}
+.ch{
+  font-size: 6vh;
+  margin-top: 10vh;
+}
+footer {
+  background-color: #131c27;
+}
+.footerlogo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+}
+.fh{
+  flex-grow: 1;
+}
+.logos{
+  margin-right: 23%;
+}
