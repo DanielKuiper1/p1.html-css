@@ -1,62 +1,88 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    }
-h1{
-    font-family: 'Pattaya', sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
-a{
-    text-decoration: none;
+h1 {
+  font-family: "Pattaya", sans-serif;
 }
-header{
-    background-color: #131c27;
+a {
+  text-decoration: none;
 }
-nav{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
-    height: 10vh;
+header {
+  background-color: #131c27;
 }
-nav ul{
-    display: flex;
-    list-style-type: none;
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
 }
-nav li{
-    padding: 0 3rem 0 3rem;
+nav ul {
+  display: flex;
+  list-style-type: none;
 }
-.locations{
-    background: url(./img/img/landing-page.jpg);
-    background-size: 100%;
-    background-position: center;
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+nav li {
+  padding: 0 3rem 0 3rem;
 }
-.lh{
-    font-size: 6vh;
+.locations {
+  background: url(./img/img/landing-page.jpg);
+  background-size: 100%;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.lp{
-    font-size: 240%;
-    text-align: center;
+.lh {
+  font-size: 6vh;
 }
-.lbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #4c6e97;
-    height: 7vh;
-    width: 25vh;
-    font-size: 2vh;
+.lp {
+  font-size: 240%;
+  text-align: center;
 }
-.l{
-    margin: 3vh;
+.lbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4c6e97;
+  height: 7vh;
+  width: 25vh;
+  font-size: 2vh;
+}
+.l {
+  margin: 3vh;
+}
+.explore {
+  background-image: linear-gradient(rgba(22, 22, 22, 1), rgba(22, 22, 22, 0)),
+    url("./img/img/new-york-page.png");
+  background-size: 100%;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.eh {
+  font-size: 6vh;
+  text-decoration-line: underline;
+}
+.ep {
+  font-size: 240%;
+}
+.ebox {
+  width: 90%;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
 }
